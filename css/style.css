@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+}
+
+nav img {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover {
+    color: #f9004d;
+}
+
+#home {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(imgs/alexandre-van-thuan-mr9FouttLGY-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#home h2 {
+    color: white;
+    font-size: 2.2rem;
+    letter-spacing: 1.1px;
+}
+
+#home p {
+    width: 50%;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+#home .btn {
+    margin-top: 30px;
+}
+
+#home a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#home a.blue {
+    color: white;
+    background: rgb(21, 21, 100);
+    transition: 0.3s ease;
+}
+
+#home a.blue:hover {
+    color: rgb(21, 21, 100);
+    background: white;
+}
+
+#home a.yellow {
+    color: white;
+    background: #fdc938;
+    transition: 0.3s ease;
+}
+
+#home a.yellow:hover {
+    color: #f9004d;
+    background: white;
+}
+
+#resources {
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#resources .resourcebox {
+    background: white;
+    text-align: start;
+}
+
+#resources .resourcebox i {
+    font-size: 2.3rem;
+    color: rgb(21, 21, 100);
+}
+
+#resources .resourcebox h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(44, 44, 80);
+    padding: 13px 0 7px 0;
+}
+
+#resources .resourcebox p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 87);
+}
+
+#resources .resourcebase {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+#registration {
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(99, 112, 164, 0.5), rgba(81, 92, 23, 0.5)), url(imgs/registration-g26592758f_1920.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#registration>div {
+    color: black;
+    margin: 90 90 90;
+}
+
+#registration h1 {
+    color: black;
+}
+
+#registration form {
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+#registration form input {
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: solid black;
+    outline: none;
+}
+
+#registration form input::placeholder {
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#registration a.blue {
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0px 90px 90px;
+    padding: 13px 35px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    background: rgb(21, 21, 100);
+    transition: 0.3s ease;
+}
+
+#registration a.blue:hover {
+    color: rgb(21, 21, 100);
+    background: white;
+}
+
+#regisrration .form .btn {
+    margin-top: 20px;
+}
+
+#experts {
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#experts img {
+    width: 100px;
+    border-radius: 30%;
+}
+
+#experts .expertsbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#experts .expertsbox .profile {
+    background: white;
+    padding: 30px 10px;
+}
+
+.pro-links {
+    margin-top: 10px;
+}
+
+.pro-links i {
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+}
+
+.pro-links i:hover {
+    background: #f9004d;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#domain {
+    margin: 10px 10px 10px 10px;
+    padding: 90px 10px 40px 100px;
+    position: relative;
+    white-space: nowrap;
+}
+
+#resource,
+#frontend,
+#backend {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 100px;
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#colLeft {
+    background-color: #ff8b8b;
+    height: 148px;
+    width: 190px;
+    display: inline;
+    float: left;
+    margin: 10px 10px 10px 90px;
+    padding: 10px 40px 50px 50px;
+}
+
+#colcenter {
+    background-color: orange;
+    height: 148px;
+    width: 190px;
+    display: inline-block;
+    margin: 10px 0px 10px 50px;
+    padding: 10px 40px 50px 60px;
+    overflow: hidden;
+}
+
+#colRight {
+    background-color: #c3d0ff;
+    height: 148px;
+    width: 190px;
+    display: inline;
+    float: right;
+    position: absolute;
+    margin: 10px 0px 10px 50px;
+    padding: 10px 40px 50px 30px;
+}
+
+#colCorner {
+    background-color: #9765a3;
+    height: 148px;
+    width: 190px;
+    display: inline;
+    float: right;
+    position: absolute;
+    margin: 10px 0px 10px 300px;
+    padding: 10px 40px 50px 30px;
+}
+
+#colLeft1 {
+    background-color: #ff8b8b;
+    height: 148px;
+    width: 190px;
+    display: inline;
+    float: left;
+    margin: 10px 10px 10px 90px;
+    padding: 10px 40px 50px 50px;
+}
+
+#colcenter1 {
+    background-color: rgb(43, 164, 201);
+    height: 148px;
+    width: 190px;
+    display: inline-block;
+    margin: 10px 0px 10px 50px;
+    padding: 10px 40px 50px 30px;
+    overflow: hidden;
+}
+
+#colRight1 {
+    background-color: #757a2b;
+    height: 148px;
+    width: 190px;
+    display: inline;
+    float: right;
+    position: absolute;
+    margin: 10px 0px 10px 50px;
+    padding: 10px 40px 50px 50px;
+}
+
+#colCorner1 {
+    background-color: #43c98a;
+    height: 148px;
+    width: 190px;
+    display: inline;
+    float: right;
+    position: absolute;
+    margin: 10px 0px 10px 300px;
+    padding: 10px 40px 50px 55px;
+}
