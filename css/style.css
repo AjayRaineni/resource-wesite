@@ -262,10 +262,38 @@ nav .navigation ul li a:hover {
 #frontend,
 #backend {
     margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 100px;
+    padding: 10px 10px 10px 0px;
     position: relative;
     white-space: nowrap;
     text-align: center;
+}
+
+.javas {
+    padding: 20px 0px 0px 20px;
+}
+
+.j {
+    padding: 20px 0px 0px 50px;
+}
+
+.script,
+.query {
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+}
+
+.html,
+.css,
+.ruby,
+.python {
+    padding: 40px 0px 0px 0px;
+    border-top: 300px 200px 200px 200px;
+    border-color: #f9004d;
+}
+
+.java,
+.php {
+    padding: 40px 0px 0px 0px;
 }
 
 #colLeft {
@@ -276,6 +304,14 @@ nav .navigation ul li a:hover {
     float: left;
     margin: 10px 10px 10px 90px;
     padding: 10px 40px 50px 50px;
+}
+
+#colLeft:hover {
+    background: #125c4cf5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
 }
 
 #colcenter {
@@ -311,7 +347,7 @@ nav .navigation ul li a:hover {
 }
 
 #colLeft1 {
-    background-color: #ff8b8b;
+    background-color: #b31c35;
     height: 148px;
     width: 190px;
     display: inline;
@@ -350,4 +386,72 @@ nav .navigation ul li a:hover {
     position: absolute;
     margin: 10px 0px 10px 300px;
     padding: 10px 40px 50px 55px;
+}
+
+#colLeft:hover {
+    background: #125c4cf5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#colRight:hover {
+    background: #362db6f5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#colcenter:hover {
+    background: #b844b2f5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#colCorner:hover {
+    background: #bb222af5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#colLeft1:hover {
+    background: #798a30f5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#colRight1:hover {
+    background: #d61f6bf5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#colcenter1:hover {
+    background: #19bd13f5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#colCorner1:hover {
+    background: #19bd13f5;
+    border: white;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.footer {
+    text-align: center;
 }
